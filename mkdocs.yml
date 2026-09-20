@@ -18,6 +18,7 @@ theme:
   features:
     - navigation.instant
     - navigation.instant.progress
+    - navigation.instant.preview
     - navigation.sections
     - navigation.top
     - content.code.copy
@@ -159,6 +160,11 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
+
+validation:
+  links:
+    absolute_links: ignore
+    anchors: ignore
 
 extra:
   generator: false
